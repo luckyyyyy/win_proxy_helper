@@ -2,6 +2,8 @@
 #include <WinInet.h>
 #include <stdio.h>
 
+#pragma comment(lib, "Wininet.lib")
+
 int main(int argc)
 {
 	InternetSetOption(0, INTERNET_OPTION_SETTINGS_CHANGED, NULL, 0);
